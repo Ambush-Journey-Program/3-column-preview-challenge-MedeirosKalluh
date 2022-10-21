@@ -11,7 +11,6 @@ display: grid;
 grid-template-columns: 20% 20% 20% 20% 20%;
 grid-template-rows: 20% 20% 20% 20% 20%;
 
-justify-content: center;
 font-family: 'Arial', sans-serif;
 
 grid-column: -5 / -3;
