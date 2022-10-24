@@ -42,27 +42,30 @@ p{
 }
 button {
     background-color: #FFFFFF;
-    border: 0;
+    border: solid 1px transparent;
     border-radius: 25px;
-    font-family: 'Lexend Deca', 'calibri', 'sans-serif';
+    font-family: 'Lexend Deca', 'calibri', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     padding: 11px 31px;
-}
+    }
 
 button:hover {
     border: solid 1px #FFFFFF;
     cursor: pointer;
-    padding: 10px 30px;
+
+    
 }
 
 .column {
     border-radius: 8px;
     padding: 43px;
     height: 100%;
-    width: 33%;}
+    width: 33%;
+}
+    
 
 .sedans {
     background-color: #E28625;  
