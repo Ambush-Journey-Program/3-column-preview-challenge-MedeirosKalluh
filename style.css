@@ -1,4 +1,3 @@
-
 html {
     box-sizing: border-box;
 }
@@ -8,18 +7,17 @@ body {
     font-family: 'Lexend Deca', 'calibri', sans-serif;
     width: 1000px;
     margin-top: 50px;
-  
 }
 
 .box {
-   
     display: flex;
     flex-direction: row;
     font-family: 'Lexend Deca', 'calibri', sans-serif;
     background-color: rgb(251, 253, 255);
     justify-content: center;
     align-content: stretch;
-
+    margin: 300px;  
+    width: 850px;
 }
 .title{
     font-family: 'Big Shoulders Display', 'calibri', sans-serif;
@@ -39,14 +37,14 @@ p{
     font-size: 15px;
     line-height: 25px;
     color: #FFFFFF;
-    opacity: 0.75;
+    opacity: 0.75
+    
 }
 button {
-
     background-color: #FFFFFF;
     border: 0;
     border-radius: 25px;
-    font-family: 'Lexend Deca', 'calibri', sans-serif;
+    font-family: 'Lexend Deca', 'calibri', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -54,63 +52,48 @@ button {
     padding: 11px 31px;
 }
 
+button:hover {
+    border: solid 1px #FFFFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
 .column {
     border-radius: 8px;
     padding: 43px;
-}
+    height: 100%;
+    width: 33%;}
 
 .sedans {
-
-    background-color: #E28625;
-   
+    background-color: #E28625;  
 }
 .sedans button {
-
     color: #E28625;
-
 }
 .sedans button:hover {
-
     background-color: #E28625;
     color: #FFFFFF;
-    border: solid 1px #FFFFFF;
-    cursor: pointer;
-    padding: 11px 30px;
 }
+
 .suvs {
-   
-    background-color: #006971;
-    
+    background-color: #006971;  
 }
 .suvs button {
-
     color: #006971;
-
 }
 .suvs button:hover {
-
     background-color: #006971;
     color: #FFFFFF;
-    border: solid 1px #FFFFFF;
-    cursor: pointer;
-    padding: 11px 30px;
 }
+
 
 .luxury {
-   
     background-color: #004140;
-
 }
 .luxury button{
-   
    color: #004140;
-
 }
 .luxury button:hover {
-
     background-color: #004140;
     color: #FFFFFF;
-    border: solid 1px #FFFFFF;
-    cursor: pointer;
-    padding: 11px 30px;
 }
