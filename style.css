@@ -14,7 +14,7 @@ body {
     background-color: #E28625;
     border-radius: 8px;
 }
-.title{
+.title {
     font-family: 'Big Shoulders Display', 'calibri', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -24,7 +24,7 @@ body {
     color: #F2F2F2;
 }
 
-p{
+p {
     margin-bottom: 83px;
     font-family: 'Lexend Deca', 'calibri', sans-serif;
     font-style: normal;
@@ -53,13 +53,18 @@ button:hover {
 }
 
 .column {
-    border-radius: 8px;
     padding: 43px;
     height: 100%;
     width: 33%;
 }
-    
-
+.column:first-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}   
+.column:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    }   
 .sedans {
     background-color: #E28625;  
 }
@@ -86,7 +91,7 @@ button:hover {
 .luxury {
     background-color: #004140;
 }
-.luxury button{
+.luxury button {
    color: #004140;
 }
 .luxury button:hover {
