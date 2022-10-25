@@ -53,13 +53,18 @@ button:hover {
 }
 
 .column {
-    border-radius: 8px;
     padding: 43px;
     height: 100%;
     width: 33%;
 }
-    
-
+.column:first-of-type {
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+}   
+.column:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    }   
 .sedans {
     background-color: #E28625;  
 }
