@@ -14,7 +14,7 @@ body {
     background-color: #E28625;
     border-radius: 8px;
 }
-.title{
+.title {
     font-family: 'Big Shoulders Display', 'calibri', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -24,7 +24,7 @@ body {
     color: #F2F2F2;
 }
 
-p{
+p {
     margin-bottom: 83px;
     font-family: 'Lexend Deca', 'calibri', sans-serif;
     font-style: normal;
@@ -58,8 +58,8 @@ button:hover {
     width: 33%;
 }
 .column:first-of-type {
-border-top-left-radius: 8px;
-border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }   
 .column:last-of-type {
     border-top-right-radius: 8px;
@@ -91,7 +91,7 @@ border-bottom-left-radius: 8px;
 .luxury {
     background-color: #004140;
 }
-.luxury button{
+.luxury button {
    color: #004140;
 }
 .luxury button:hover {
