@@ -1,53 +1,95 @@
-
-.caixa {
-position: absolute;
-vertical-align: center;
-width: 900px;
-height: 660px;
+html {
+    box-sizing: border-box;
 }
 
-.bloco {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 20% 20% 20% 20% 20%;
-
-font-family: 'Arial', sans-serif;
-
-grid-column: -5 / -3;
-grid-row: -5 / -2;
-background-color: rgb(251, 253, 255);
-}
-.t1{
-    color: rgb(244, 247, 249);
+body {
+    margin: 50px auto 0;
+    font-family: 'Lexend Deca', 'calibri', sans-serif;
+    width: 850px;
 }
 
-.b1{
-    vertical-align: center;
-    background-color: rgb(251, 253, 255);
-    text-align: center; 
-    text-decoration: underline;
+.box {
+    display: flex;
+    font-family: 'Lexend Deca', 'calibri', sans-serif;
+    background-color: #E28625;
+    border-radius: 8px;
 }
+.title{
+    font-family: 'Big Shoulders Display', 'calibri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+p{
+    margin-bottom: 83px;
+    font-family: 'Lexend Deca', 'calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75
+    
+}
+button {
+    background-color: #FFFFFF;
+    border: solid 1px transparent;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', 'calibri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 11px 31px;
+    }
+
+button:hover {
+    border: solid 1px #FFFFFF;
+    cursor: pointer;  
+}
+
+.column {
+    border-radius: 8px;
+    padding: 43px;
+    height: 100%;
+    width: 33%;
+}
+    
 
 .sedans {
-    display: grid;
-   
-    
-    grid-column: -5;
-    grid-row: 3 / 8;
-    background-color: rgb(255, 136, 0);
+    background-color: #E28625;  
 }
-.suvs {
-    display: grid;
-   
-    grid-column: -4;
-    grid-row: 3 / 8;
-    background-color: rgb(27, 79, 78);
+.sedans button {
+    color: #E28625;
 }
-.luxury {
-    display: grid;
-    
-    grid-column: -3;
-    grid-row: 3 / 8;
-    background-color: rgb(0, 46, 34);
+.sedans button:hover {
+    background-color: #E28625;
+    color: #FFFFFF;
+}
 
+.suvs {
+    background-color: #006971;  
+}
+.suvs button {
+    color: #006971;
+}
+.suvs button:hover {
+    background-color: #006971;
+    color: #FFFFFF;
+}
+
+
+.luxury {
+    background-color: #004140;
+}
+.luxury button{
+   color: #004140;
+}
+.luxury button:hover {
+    background-color: #004140;
+    color: #FFFFFF;
 }
