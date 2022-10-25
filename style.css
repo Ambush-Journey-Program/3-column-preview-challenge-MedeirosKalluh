@@ -5,7 +5,7 @@ html {
 body {
     margin: 0 auto;
     font-family: 'Lexend Deca', 'calibri', sans-serif;
-    width: 1000px;
+    width: 850px;
     margin-top: 50px;
 }
 
@@ -16,6 +16,8 @@ body {
     background-color: rgb(251, 253, 255);
     justify-content: center;
     align-content: stretch;
+    background-color: #E28625;
+    border-radius: 8px;
 
 }
 .title{
@@ -53,9 +55,7 @@ button {
 
 button:hover {
     border: solid 1px #FFFFFF;
-    cursor: pointer;
-
-    
+    cursor: pointer;  
 }
 
 .column {
