@@ -67,7 +67,7 @@ button:hover {
     border-bottom-right-radius: 8px;
     }   
 
-@media screen and (max-width: 480px) and (orientation: portrait) { 
+@media (max-width: 850px)  { 
     .box {
          display: flex;
          font-family: 'Lexend Deca', 'calibri', 'arial', sans-serif;
