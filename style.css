@@ -70,9 +70,9 @@ button:hover {
 @media (max-width: 850px)  { 
     .box {
          display: flex;
-         font-family: 'Lexend Deca', 'calibri', 'arial', sans-serif;
          background-color: #FFFFFF;
-         flex-flow: column wrap;}
+         flex-direction: column;
+       }
     
     .column:first-of-type {
             border-top-left-radius: 8px;
