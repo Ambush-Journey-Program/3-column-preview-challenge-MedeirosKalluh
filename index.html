@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="reset.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    
 </head>
 <body>  
-    <div class="box">    
-        <div class='column sedans'>
-            <img src="images/icon-sedans.svg" alt="Sedan car icon">
-            <h1 class='title'>SEDANS</h1>
-                <p>Choose a sedan for its affordability and excellent fuel economy. <br>Ideal for cruising in the city or on your next road trip</p>    
-                <button>Learn More</button>
-        </div>
-        <div class='column suvs'>
-            <img src="images/icon-suvs.svg" alt="SUV car icon">
-            <h1 class='title'>SUV</h1>
-                <p>Take an SUV for its spacious interior, power, and versatility. <br>Perfect for your next family vacation and off-road adventures.</p>    
-                <button >Learn More</button>
-        </div>
-        <div class='column luxury'>
-            <img src="images/icon-luxury.svg" alt="Luxury car icon">
-            <h1 class='title'>LUXURY</h1>
-            <p>Choose a sedan for its affordability and excellent fuel economy. <br>Ideal for cruising in the city or on your next road trip</p>    
-                <button>Learn More</button>
-        </div>
+    <div class="box"> 
+         
+            <div class='column column--sedans'>                    
+                <img class='column__image' src="images/icon-sedans.svg" alt="Sedan car icon">
+                <h1 class='column__title'>SEDANS</h1>
+                <p class="column__description">Choose a sedan for its affordability and excellent fuel economy. <br>Ideal for cruising in the city or on your next road trip</p>    
+                <button class='column__button column__button--sedans'>Learn More</button>
+            </div>
+      
+            <div class='column column--suvs'>
+                <img class='column__image' src="images/icon-suvs.svg" alt="SUV car icon">
+                <h1 class='column__title'>SUV</h1>
+                <p class="column__description">Take an SUV for its spacious interior, power, and versatility. <br>Perfect for your next family vacation and off-road adventures.</p>    
+                <button class='column__button column__button--suvs'>Learn More</button>
+            </div>
+      
+            <div class='column column--luxury'>
+                <img class='column__image' src="images/icon-luxury.svg" alt="Luxury car icon">
+                <h1 class='column__title'>LUXURY</h1>
+                <p class="column__description">Choose a sedan for its affordability and excellent fuel economy. <br>Ideal for cruising in the city or on your next road trip</p>    
+                <button class='column__button column__button--luxury'>Learn More</button>
+            </div> 
+         
     </div>
 </body>
 </html>
