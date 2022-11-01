@@ -34,8 +34,8 @@ p {
     line-height: 25px;
     color: #FFFFFF;
     opacity: 0.75
-    
 }
+
 button {
     background-color: #FFFFFF;
     border: solid 1px transparent;
@@ -46,7 +46,7 @@ button {
     font-size: 15px;
     line-height: 25px;
     padding: 11px 31px;
-    }
+}
 
 button:hover {
     border: solid 1px #FFFFFF;
@@ -58,38 +58,40 @@ button:hover {
     height: 100%;
     width: 33%;
 }
+
 .column:first-of-type {
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-radius:  8px 0 0 8px;
 }   
 .column:last-of-type {
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 0 8px 8px 0;
+}   
+
+@media ( max-width: 850px ) { 
+    
+    body {
+        width:700px;
+    } 
+
+    .box {
+        align-items: center;
+        background: #FFFFFF; 
+        flex-flow: column wrap;
+    }
+
+    .column:first-of-type {
+        border-radius: 8px 8px 0 0;
     }   
 
-@media (max-width: 850px)  { 
-    .box {
-         display: flex;
-         background-color: #FFFFFF;
-         flex-direction: column;
-       }
-    
-    .column:first-of-type {
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
-        }   
-    .column:last-of-type {
-            border-bottom-left-radius: 8px;
-            border-bottom-right-radius: 8px;
-             }
 } 
 
 .sedans {
     background-color: #E28625;  
 }
+
 .sedans button {
     color: #E28625;
 }
+
 .sedans button:hover {
     background-color: #E28625;
     color: #FFFFFF;
@@ -98,9 +100,11 @@ button:hover {
 .suvs {
     background-color: #006971;  
 }
+
 .suvs button {
     color: #006971;
 }
+
 .suvs button:hover {
     background-color: #006971;
     color: #FFFFFF;
@@ -110,9 +114,11 @@ button:hover {
 .luxury {
     background-color: #004140;
 }
+
 .luxury button {
    color: #004140;
 }
+
 .luxury button:hover {
     background-color: #004140;
     color: #FFFFFF;
